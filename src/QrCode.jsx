@@ -33,7 +33,7 @@ const QrCode = () => {
   return (
     <div className="app-container">
         <h1>QRCODE GENERATOR</h1>
-        {img && <img className="qrcode-img" src={img}/>}
+        {img && <img className="qrcode-img" src={img} alt="Qrcode"/>}
         {loading && <p>Please wait ...</p>}
         <div>
             <label htmlFor="data-input" className="input-label">Data for Qr Code</label>
